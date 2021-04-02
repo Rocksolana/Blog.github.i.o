@@ -328,9 +328,7 @@ body {
 .red_big_title {
        font-size: 26px;
    }
-.take_image {
-     /*  height: 360px;*/
-   }
+
 .blog_image {
     width: 100%;
 }
@@ -366,10 +364,11 @@ body {
  font-family: 'Noto Sans JP', sans-serif;
  padding: 6px 10px;
  border-radius: 5px;
+ border: 1px solid rgba(0,0,0,0);;
  
 }
 .menu > li > a:hover {
-      
+      border: 1px solid white;
 }
 .navigation hidden-menu {
     
@@ -575,4 +574,29 @@ input::placeholder {
     height: 20px;
     font-size: 12px;
      
+}
+.slider-block,.main_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slider-block > div {
+    color:black;
+    width:500px;
+    height: 400px; 
+}
+
+.slick-prev:before, .slick-next:before{
+    color: grey;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 40px;
+}   
+.slick-prev {
+    left: -37px;
+}
+.slick-next{
+    right:0px;
 }

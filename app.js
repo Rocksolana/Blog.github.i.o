@@ -9,3 +9,6 @@ if (mobileMenu.classList.contains("active-menu")){
 }
 
 })
+$(".slider-block").slick({
+    dots:true
+});
