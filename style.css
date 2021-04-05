@@ -422,7 +422,7 @@ body {
     text-align: center;
     padding: 50px;
 }
-.designers,.take,.blog_item {
+.designers,.take,.blog_item,.our_mission {
     background-color: aliceblue;
     color: rgb(209, 127, 127);
     display: flex;
@@ -492,7 +492,7 @@ body {
     font-size: 14px;
     padding-top: 30px;
 }
-.small_title {
+.category {
     padding-top: 15px;
 }
 .red_title {
